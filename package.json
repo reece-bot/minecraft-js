@@ -1,0 +1,19 @@
+{
+  "name": "minecraft",
+  "version": "1.0.0",
+  "description": "Building minecraft with JavaScript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/reece-bot/minecraft-js.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/reece-bot/minecraft-js/issues"
+  },
+  "homepage": "https://github.com/reece-bot/minecraft-js#readme"
+}
