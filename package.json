@@ -1,19 +1,37 @@
 {
-  "name": "minecraft",
-  "version": "1.0.0",
-  "description": "Building minecraft with JavaScript",
-  "main": "index.js",
+  "name": "minecraft-react",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@react-three/cannon": "^3.1.2",
+    "@react-three/drei": "^7.12.5",
+    "@react-three/fiber": "^7.0.7",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-scripts": "4.0.3",
+    "three": "^0.132.2",
+    "nanoid": "^3.1.20",
+    "zustand": "^3.0.3"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/reece-bot/minecraft-js.git"
+  "eslintConfig": {
+    "extends": "react-app"
   },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/reece-bot/minecraft-js/issues"
-  },
-  "homepage": "https://github.com/reece-bot/minecraft-js#readme"
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
 }
